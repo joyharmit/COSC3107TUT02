@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<!-- Declaration - It is an "information" to the browser about what document type to expect.-->
 <html>
 
 <head>
@@ -11,35 +12,60 @@
    Joy Ha
   </h1>
 
+  <!-- Include an image -->
+  <img src="photo.jpg" alt="My profile photo" style="width:250px;height:250px;">
+
+  <!-- Inlcude an online image-->
+  <img src="https://media.licdn.com/dms/image/v2/D5603AQHBKbm3iC-Rbg/profile-displayphoto-scale_200_200/B56ZfQ1tYlHUAg-/0/1751555431405?e=2147483647&v=beta&t=HlA2hPp-5QXZc_3Yi6iRRWmNZxdVezSq3praJeHFyV8" alt="My graduation photo">
+  
+  <!-- Why we need alt?-->
+  
   <h2>Brief Bio</h2>
-  I'm the instructor of COSC3107 TUT02 for the first semester of 2026 at RMIT Vietnam.
+  I'm the instructor of <b>COSC3107 TUT02 </b> for the first semester of 2026 at <strong>Vietnam</strong>.
+  <!--What is the difference between <b> and <strong>?-->
 
-  <h2>Personal Interests</h2>
-  <ul>
-    <b>
-    <li>Walking</li>
-    <li>Listening to podcasts</li>
-    <li>Gaming</li>
-    <li>Sleeping</li>
-    <li>Watching movies</li>  
-    </b>
-    
-  </ul>
-
-  <h2>Top 5 favourite websites</h2>
+  <!-- Ordered list -->
+  <h2>Courses</h2>
   <ol>
-    <i>
+    <li> Mathematics for Computing</li>
+    <li> Python Programming Studio</li>
+  </ol>
 
+  <!-- Ordered list with type attribute: a, A, I, etc -->
+  <h2>Courses</h2>
+  <ol type="a">
+    <li> Mathematics for Computing</li>
+    <li> Python Programming Studio</li>
+  </ol>
+
+   <!-- Definition/Description list  -->
+  <h2>Personal Interests</h2>
+  <dl>
     
+    <dt>Walking</dt>
+    <dd> I like to walk on a daily basis. </dd>
+    <dt>Listening to podcasts</dt>
+    <dd> I like to listen to the Mindset mentor podcast every night. </dd>
+    <dt>Gaming</dt>
+    <dd> My favorite game is GTA. </dd>
+    <dt>Sleeping</dt>
+    <dt>Watching movies</dt>  
+    
+  </dl>
+
+  <!--What is the difference between <i> and <emphasize>?-->
+  <h2> <em>Top 5 favourite websites</em></h2>
+  <ul>
+    <i>
     <li><a href="https://chatgpt.com" target="_blank">chatgpt</a></li> 
+    <!-- What is href?-->
     <li><a href="https://youtube.com" target="_blank">youtube</a></li>
     <li><a href="https://gemini.com" target="_blank">gemini</a></li>
     <li><a href="https://facebook.com" target="_blank"> facebook</a></li>
     <li><a href="https://w3schools.com" target="_blank" >w3school</a></li>
     </i>
-
-  </ol>
+  </ul>
 
 </BODY>
 
-</HTML>
+</html>
