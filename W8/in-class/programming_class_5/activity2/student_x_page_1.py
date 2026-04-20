@@ -1,7 +1,36 @@
 def get_page_html(form_data):
     print("About to return page home page...")
     page_html="""
-    Must modify page_html contents in student_x_page_1.py, etc.
-    to include the HTML that you want displayed here.
-    """
+    <!DOCTYPE html>
+<html>
+
+<head>
+    <!-- Include the external css file -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="topnav">
+                <a href="/">Homepage (Student X)</a>
+                <a href="/studenty">Student Y</a>
+    </div>
+
+    <div class="header">
+        <h1>
+            <img src="tmp-image.png" class="top-image" alt="logo" width="75" height="75">
+            Programming Class 5 exercise Student X page
+        </h1>
+    </div>
+
+    <div class="content">
+        <p>Content</p>
+    </div>
+
+    <div class="footer">
+        <p>COSC3106 - Programming Class 5</p>
+    </div>
+
+</body>
+</html>
     return page_html
